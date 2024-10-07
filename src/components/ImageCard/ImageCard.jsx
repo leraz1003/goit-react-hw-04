@@ -16,20 +16,13 @@ const ImageCard = ({ items, onImageClick }) => {
       userName,
     });
   };
-  console.log("smal", smallUrl);
-  console.log("regular", regularUrl);
-  // const [selectedImg, setSelectedImg] = useState(setImage);
-  // const handleImageClick = (evt) => {
-  //   console.log("evt", evt.target.src);
-  //   setSelectedImg(evt.target);
-  // };
-  // console.log("selectedImg", selectedImg);
+
   return (
     <li className={s.item} onClick={handleImageClick}>
       <img src={smallUrl} alt={alt_description} />
       <div>
         <p>Author: {userName}</p>
-        <p>likes: {likes}</p>
+        <p> ❤️ {likes}</p>
       </div>
     </li>
   );

@@ -1,0 +1,58 @@
+.modalOverlay {
+  background-color: rgba(0, 0, 0, 0.75); /* Задаємо фон для оверлея */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modalContent {
+  border-radius: 10px;
+  width: 70%;
+  height: auto;
+  max-height: 500px;
+  max-width: 800px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Тінь для краси */
+  z-index: 1001;
+  position: absolute;
+  overflow: hidden;
+}
+.modalImage {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modalImage:focus,
+.modalImage:active,
+.modalImage:focus-visible {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.wrap {
+  padding: 15px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-top: 2px solid rgb(132, 0, 255);
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.description {
+  font-size: 16px; /* Регулюємо розмір шрифту для опису */
+  line-height: 1.5;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}

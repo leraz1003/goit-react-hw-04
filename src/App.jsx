@@ -28,7 +28,7 @@ function App() {
   const handleSubmit = (searchValue) => {
     setQuery(searchValue);
     setArticles([]);
-    setPage(0);
+    setPage(1);
   };
 
   useEffect(() => {
