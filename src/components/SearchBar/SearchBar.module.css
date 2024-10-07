@@ -1,0 +1,33 @@
+header {
+  background-color: rgb(132, 0, 255);
+  padding: 5px;
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5),
+    0px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar {
+  all: unset;
+  background-color: azure;
+  padding: 5px 15px 5px 25px;
+  border: none;
+  border-radius: 2px;
+  width: 30%;
+}
+
+.searchBtn {
+  /* visibility: hidden;
+  background-color: transparent;
+  border: none; */
+  display: none;
+}
+.searchLogo {
+  transform: translateX(20px);
+  color: blueviolet;
+  cursor: pointer;
+}
