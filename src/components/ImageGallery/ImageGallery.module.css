@@ -1,6 +1,6 @@
 .gallery {
   display: flex;
-  gap: 5px;
+  gap: 15px;
   width: 100%;
   flex-wrap: wrap;
   margin-top: 15px;

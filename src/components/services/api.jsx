@@ -7,7 +7,7 @@ export const fetchArticles = async (page = 1, query) => {
       client_id: KEY,
       query: query,
       page: page,
-      per_page: 12,
+      per_page: 20,
     },
   });
 

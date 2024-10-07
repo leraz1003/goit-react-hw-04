@@ -7,7 +7,14 @@
   width: 300px;
   overflow: hidden;
   height: 100%;
+  cursor: zoom-in;
+  transition: all 250ms linear;
 }
+.item:hover {
+  transform: scale(1.05); /* Трохи збільшуємо картку */
+  /* Робимо картку вище над іншими елементами під час ховера */
+}
+
 img {
   display: block;
   width: 100%;
